@@ -1,5 +1,8 @@
 import streamlit as st
 from PIL import Image
+import anthropic
+
+client = anthropic.Anthropic()
 
 st.title("🖋️ Handwriting Analyzer")
 uploaded_file = st.file_uploader("Choose an image of handwriting or a signature", type = ["png", "jpg", "jpeg"])
