@@ -55,6 +55,6 @@ if uploaded_file is not None:
 
     if st.button("Analyze Handwriting"):
         with st.spinner("Analyzing..."):
-            analysis = analyze_handwriting(image)
+            # analysis = analyze_handwriting(image)
             st.subheader("Analysis Results:")
-            st.write(analysis)
+            #st.write(analysis)

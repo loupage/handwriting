@@ -1,5 +1,0 @@
-streamlit
-anthropic
-base64
-PIL
-io
