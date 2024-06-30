@@ -55,4 +55,4 @@ if uploaded_file is not None:
         with st.spinner("Analyzing..."):
             analysis = analyze_handwriting(image)
             st.subheader("Analysis Results:")
-            st.write("v3")
+            st.write(analysis)
